@@ -2,7 +2,7 @@ repo_name: PopBot/react-native-updated-ssh-sftp-client
 report_id: e5ff7050b5307b3742fb2138d3e980bd
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-31T18:50:29+00:00'
+timestamp: '2024-02-29T19:48:30+00:00'
 requested_by: PopBot
 provider: github
 branch: main
@@ -53,7 +53,7 @@ tools:
   detection_source_url: https://github.com/PopBot/react-native-updated-ssh-sftp-client
   detection_source: Repo Metadata
 - name: Swift
-  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
   license: Apache-2.0
   open_source: true
@@ -292,62 +292,11 @@ tools:
   last_updated_on: 2018-04-22 07:33:14.000000000 Z
   vulnerabilities:
   - name: Arbitrary Code Execution in jackson-databind
-    cve_id: CVE-2018-14718
-    cve_url: https://github.com/advisories/GHSA-645p-88qh-w398
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.7
-  - name: Arbitrary Code Execution in jackson-databind
     cve_id: CVE-2018-14719
     cve_url: https://github.com/advisories/GHSA-4gq5-ch57-c2mg
     detected_date: Aug 22
     severity: critical
     first_patched: 2.9.7
-  - name: 'FasterXML jackson-databind allows unauthenticated remote code execution '
-    cve_id: CVE-2018-7489
-    cve_url: https://github.com/advisories/GHSA-cggj-fvv3-cqwv
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.5
-  - name: Improper Input Validation in jackson-databind
-    cve_id: CVE-2019-17267
-    cve_url: https://github.com/advisories/GHSA-f3j5-rmmp-3fc5
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.10
-  - name: Polymorphic Typing in FasterXML jackson-databind
-    cve_id: CVE-2019-16942
-    cve_url: https://github.com/advisories/GHSA-mx7p-6679-8g3q
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.10.1
-  - name: Deserialization of Untrusted Data in jackson-databind
-    cve_id: CVE-2020-8840
-    cve_url: https://github.com/advisories/GHSA-4w82-r329-3q67
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.10.3
-  - name: jackson-databind mishandles the interaction between serialization gadgets
-      and typing
-    cve_id: CVE-2020-9546
-    cve_url: https://github.com/advisories/GHSA-5p34-5m6p-p58g
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.10.4
-  - name: jackson-databind mishandles the interaction between serialization gadgets
-      and typing
-    cve_id: CVE-2020-9548
-    cve_url: https://github.com/advisories/GHSA-p43x-xfjf-5jhr
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.10.4
-  - name: jackson-databind mishandles the interaction between serialization gadgets
-      and typing
-    cve_id: CVE-2020-9547
-    cve_url: https://github.com/advisories/GHSA-q93h-jc49-78gg
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.10.4
   - name: Polymorphic Typing issue in FasterXML jackson-databind
     cve_id: CVE-2019-14540
     cve_url: https://github.com/advisories/GHSA-h822-r4r5-v8jg
@@ -360,6 +309,12 @@ tools:
     detected_date: Aug 22
     severity: critical
     first_patched: 2.9.10
+  - name: 'FasterXML jackson-databind allows unauthenticated remote code execution '
+    cve_id: CVE-2018-7489
+    cve_url: https://github.com/advisories/GHSA-cggj-fvv3-cqwv
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.5
   - name: XML External Entity Reference (XXE) in jackson-databind
     cve_id: CVE-2018-14720
     cve_url: https://github.com/advisories/GHSA-x2w5-5m2g-7h5m
@@ -373,6 +328,25 @@ tools:
     detected_date: Aug 22
     severity: critical
     first_patched: 2.9.4
+  - name: Deserialization of Untrusted Data in jackson-databind due to polymorphic
+      deserialization
+    cve_id: CVE-2018-19360
+    cve_url: https://github.com/advisories/GHSA-f9hv-mg5h-xcw9
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.8
+  - name: Arbitrary Code Execution in jackson-databind
+    cve_id: CVE-2018-14718
+    cve_url: https://github.com/advisories/GHSA-645p-88qh-w398
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.7
+  - name: Improper Input Validation in jackson-databind
+    cve_id: CVE-2019-17267
+    cve_url: https://github.com/advisories/GHSA-f3j5-rmmp-3fc5
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10
   - name: Deserialization of Untrusted Data in jackson-databind
     cve_id: CVE-2019-20330
     cve_url: https://github.com/advisories/GHSA-gww7-p5w4-wrfv
@@ -392,6 +366,20 @@ tools:
     detected_date: Aug 22
     severity: critical
     first_patched: 2.9.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9546
+    cve_url: https://github.com/advisories/GHSA-5p34-5m6p-p58g
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9548
+    cve_url: https://github.com/advisories/GHSA-p43x-xfjf-5jhr
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.4
   - name: jackson-databind polymorphic typing issue
     cve_id: CVE-2019-17531
     cve_url: https://github.com/advisories/GHSA-gjmw-vf9h-g25v
@@ -410,6 +398,19 @@ tools:
     detected_date: Aug 22
     severity: critical
     first_patched: 2.9.9.2
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9547
+    cve_url: https://github.com/advisories/GHSA-q93h-jc49-78gg
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.4
+  - name: Polymorphic Typing in FasterXML jackson-databind
+    cve_id: CVE-2019-16942
+    cve_url: https://github.com/advisories/GHSA-mx7p-6679-8g3q
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.1
   - name: Deserialization of Untrusted Data in jackson-databind
     cve_id: CVE-2018-19361
     cve_url: https://github.com/advisories/GHSA-mx9v-gmh4-mgqw
@@ -422,67 +423,12 @@ tools:
     detected_date: Aug 22
     severity: critical
     first_patched: 2.9.7
-  - name: Deserialization of Untrusted Data in jackson-databind due to polymorphic
-      deserialization
-    cve_id: CVE-2018-19360
-    cve_url: https://github.com/advisories/GHSA-f9hv-mg5h-xcw9
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2020-8840
+    cve_url: https://github.com/advisories/GHSA-4w82-r329-3q67
     detected_date: Aug 22
     severity: critical
-    first_patched: 2.9.8
-  - name: Deeply nested json in jackson-databind
-    cve_id: CVE-2020-36518
-    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
-    detected_date: Mar 23
-    severity: high
-    first_patched: 2.12.6.1
-  - name: Deserialization of Untrusted Data in jackson-databind
-    cve_id: CVE-2018-5968
-    cve_url: https://github.com/advisories/GHSA-w3f4-3q6j-rh82
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.4
-  - name: jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
-    cve_id: CVE-2020-10650
-    cve_url: https://github.com/advisories/GHSA-rpr3-cw39-3pxh
-    detected_date: Jul 16
-    severity: high
-    first_patched: 2.9.10.4
-  - name: Deserialization of untrusted data in FasterXML jackson-databind
-    cve_id: CVE-2019-14439
-    cve_url: https://github.com/advisories/GHSA-gwp4-hfv6-p7hw
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.9.2
-  - name: Deserialization of Untrusted Data in jackson-databind
-    cve_id: 
-    cve_url: https://github.com/advisories/GHSA-wrr7-33fx-rcvj
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.6
-  - name: Deserialization of untrusted data in Jackson Databind
-    cve_id: CVE-2020-14195
-    cve_url: https://github.com/advisories/GHSA-mc6h-4qgp-37qh
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.10.5
-  - name: Deserialization of Untrusted Data
-    cve_id: CVE-2018-12023
-    cve_url: https://github.com/advisories/GHSA-6wqp-v4v6-c87c
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.6
-  - name: Deserialization of untrusted data in Jackson Databind
-    cve_id: CVE-2020-14061
-    cve_url: https://github.com/advisories/GHSA-c2q3-4qrh-fm48
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.10.5
-  - name: Deserialization of untrusted data in Jackson Databind
-    cve_id: CVE-2020-14062
-    cve_url: https://github.com/advisories/GHSA-c265-37vj-cwcc
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.10.5
+    first_patched: 2.9.10.3
   - name: Deserialization of untrusted data in Jackson Databind
     cve_id: CVE-2020-14060
     cve_url: https://github.com/advisories/GHSA-j823-4qch-3rgm
@@ -537,18 +483,6 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 2.9.10.4
-  - name: Unsafe Deserialization in jackson-databind
-    cve_id: CVE-2020-24750
-    cve_url: https://github.com/advisories/GHSA-qjw2-hr98-qgfh
-    detected_date: Jan 28
-    severity: high
-    first_patched: 2.9.10.6
-  - name: XML External Entity (XXE) Injection in Jackson Databind
-    cve_id: CVE-2020-25649
-    cve_url: https://github.com/advisories/GHSA-288c-cq4h-88gq
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.10.7
   - name: jackson-databind mishandles the interaction between serialization gadgets
       and typing
     cve_id: CVE-2020-11620
@@ -556,18 +490,78 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 2.9.10.4
-  - name: Serialization gadget exploit in jackson-databind
-    cve_id: CVE-2020-35728
-    cve_url: https://github.com/advisories/GHSA-5r5r-6hpj-8gg9
-    detected_date: Nov 22
-    severity: high
-    first_patched: 2.9.10.8
   - name: Polymorphic deserialization of malicious object in jackson-databind
     cve_id: CVE-2019-14893
     cve_url: https://github.com/advisories/GHSA-qmqc-x3r4-6v39
     detected_date: Aug 22
     severity: high
     first_patched: 2.9.10
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-wrr7-33fx-rcvj
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.6
+  - name: jackson-databind Deserialization of Untrusted Data vulnerability
+    cve_id: CVE-2018-12022
+    cve_url: https://github.com/advisories/GHSA-cjjf-94ff-43w7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.6
+  - name: Information exposure in FasterXML jackson-databind
+    cve_id: CVE-2019-12086
+    cve_url: https://github.com/advisories/GHSA-5ww9-j83m-q7qx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.9
+  - name: jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+    cve_id: CVE-2020-10650
+    cve_url: https://github.com/advisories/GHSA-rpr3-cw39-3pxh
+    detected_date: Jul 16
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-24750
+    cve_url: https://github.com/advisories/GHSA-qjw2-hr98-qgfh
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: Deserialization of untrusted data in jackson-databind
+    cve_id: CVE-2021-20190
+    cve_url: https://github.com/advisories/GHSA-5949-rw7g-wx7w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.7
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: XML External Entity (XXE) Injection in Jackson Databind
+    cve_id: CVE-2020-25649
+    cve_url: https://github.com/advisories/GHSA-288c-cq4h-88gq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.7
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2018-5968
+    cve_url: https://github.com/advisories/GHSA-w3f4-3q6j-rh82
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.4
+  - name: Serialization gadget exploit in jackson-databind
+    cve_id: CVE-2020-35728
+    cve_url: https://github.com/advisories/GHSA-5r5r-6hpj-8gg9
+    detected_date: Nov 22
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36181
+    cve_url: https://github.com/advisories/GHSA-cvm9-fjm9-3572
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
   - name: jackson-databind mishandles the interaction between serialization gadgets
       and typing
     cve_id: CVE-2020-10673
@@ -575,18 +569,6 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 2.9.10.4
-  - name: jackson-databind Deserialization of Untrusted Data vulnerability
-    cve_id: CVE-2018-12022
-    cve_url: https://github.com/advisories/GHSA-cjjf-94ff-43w7
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.6
-  - name: Unsafe Deserialization in jackson-databind
-    cve_id: CVE-2020-36181
-    cve_url: https://github.com/advisories/GHSA-cvm9-fjm9-3572
-    detected_date: Jan 28
-    severity: high
-    first_patched: 2.9.10.8
   - name: Unsafe Deserialization in jackson-databind
     cve_id: CVE-2020-36186
     cve_url: https://github.com/advisories/GHSA-v585-23hc-c647
@@ -672,18 +654,6 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 2.9.10.4
-  - name: Information exposure in FasterXML jackson-databind
-    cve_id: CVE-2019-12086
-    cve_url: https://github.com/advisories/GHSA-5ww9-j83m-q7qx
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.9
-  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
-    cve_id: CVE-2022-42004
-    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
-    detected_date: Oct 5
-    severity: high
-    first_patched: 2.12.7.1
   - name: High severity vulnerability that affects com.fasterxml.jackson.core:jackson-databind
     cve_id: CVE-2018-19362
     cve_url: https://github.com/advisories/GHSA-c8hm-7hpq-7jhg
@@ -696,12 +666,42 @@ tools:
     detected_date: Oct 5
     severity: high
     first_patched: 2.12.7.1
-  - name: Deserialization of untrusted data in jackson-databind
-    cve_id: CVE-2021-20190
-    cve_url: https://github.com/advisories/GHSA-5949-rw7g-wx7w
+  - name: Deeply nested json in jackson-databind
+    cve_id: CVE-2020-36518
+    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
+    detected_date: Mar 23
+    severity: high
+    first_patched: 2.12.6.1
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14195
+    cve_url: https://github.com/advisories/GHSA-mc6h-4qgp-37qh
     detected_date: Aug 22
     severity: high
-    first_patched: 2.9.10.7
+    first_patched: 2.9.10.5
+  - name: Deserialization of Untrusted Data
+    cve_id: CVE-2018-12023
+    cve_url: https://github.com/advisories/GHSA-6wqp-v4v6-c87c
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.6
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14061
+    cve_url: https://github.com/advisories/GHSA-c2q3-4qrh-fm48
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14062
+    cve_url: https://github.com/advisories/GHSA-c265-37vj-cwcc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in FasterXML jackson-databind
+    cve_id: CVE-2019-14439
+    cve_url: https://github.com/advisories/GHSA-gwp4-hfv6-p7hw
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.9.2
   - name: Deserialization of Untrusted Data in FasterXML jackson-databind
     cve_id: CVE-2019-12384
     cve_url: https://github.com/advisories/GHSA-mph4-vhrx-mv67
